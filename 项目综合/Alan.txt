@@ -1,0 +1,13 @@
+tarena@tedu:~$ cat /etc/gitconfig
+[user]
+    name = Alan@qq.com
+    nsme = Alan
+tarena@tedu:~$ git config --global user.email Alam@tedu.cn
+tarena@tedu:~$ cat /etc/gitconfig
+[user]
+    name = Alan@qq.com
+    nsme = Alan
+tarena@tedu:~$ cat .gitconfig
+[user]
+    name = Alan
+    email = Alam@tedu.cn
